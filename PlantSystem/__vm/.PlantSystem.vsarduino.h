@@ -12,12 +12,10 @@
 #define _VSARDUINO_H_
 #define __AVR_ATmega32u4__
 #define __AVR_ATmega32U4__
-#define F_CPU 16000000L
+#define F_CPU 16500000L
 #define ARDUINO 10607
-#define ARDUINO_AVR_LEONARDO
+#define ARDUINO_AVR_DIGISPARK
 #define ARDUINO_ARCH_AVR
-#define USB_VID 0x2341
-#define USB_PID 0x8036
 #define __cplusplus
 #define __AVR__
 #define __inline__
@@ -93,6 +91,7 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <..\PlantSystem\HumiditySensors.h>
 #include <..\PlantSystem\LedLightingLampController.cpp>
 #include <..\PlantSystem\LedLightingLampController.h>
+#include <C:\Users\Ant\Documents\Arduino\LightControl\LightControl.ino>
 #include <..\PlantSystem\LightSensor.cpp>
 #include <..\PlantSystem\LightSensor.h>
 #include <..\PlantSystem\OneWireTempSensor.cpp>

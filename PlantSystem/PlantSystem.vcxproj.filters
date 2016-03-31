@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="PlantSystem.ino" />
+    <None Include="C:\Users\Ant\Documents\Arduino\LightControl\LightControl.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.PlantSystem.vsarduino.h">
